@@ -16,9 +16,8 @@ public class MinutesToYearsDaysCalculator {
     } else if (minutes < 525600) {
       //   long remainingminutes = minutes % (60 * 24 * 365);
       long remainingDays = (minutes / (60 * 24));
-      System.out.println(
-        minutes + " min = " + "0" + " y and " + remainingDays + " d"
-      );
+      System.out.println(minutes + " min = " + remainingDays + " d");
+      //+ "0" + " y and "
     } else {
       System.out.println("Fu*k that to do");
     }
