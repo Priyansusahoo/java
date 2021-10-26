@@ -1,23 +1,29 @@
-**/target/
-/target/
-*/target/*
-.classpath
-.project
-.settings
-
-# Package Files #
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
 *.jar
 *.war
 *.ear
-*.class
 *.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
 
-*.iml
 
-/.metadata/
+###############################
+## VsCode
+###############################
+.code-workspace
+.vscode/
 
-# Editor directories and files
-.idea
+
+
+##############################
+## IntelliJ
+##############################
 out/
 .idea/
 .idea_modules/
@@ -25,22 +31,20 @@ out/
 *.ipr
 *.iws
 
-## Visual Studio Code
-##############################
-.vscode/
-.vscode
 
-
-## Maven
 ##############################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-pom.xml.bak
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
