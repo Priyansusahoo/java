@@ -1,0 +1,1 @@
+File: file2.txt, Sum: 220
